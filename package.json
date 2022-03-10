@@ -1,0 +1,11 @@
+{
+  "name": "phillips_dev_week",
+  "version": "1.0.0",
+  "description": "<div align = \"center\">     <h1> Sistema de Consulta para Tratamento de Câncer de Mama do SUS </h1> </div> <br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
