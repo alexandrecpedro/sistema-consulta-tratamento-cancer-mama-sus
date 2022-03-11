@@ -1,4 +1,7 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
+
 import { Faixaetaria } from '../model/faixaetaria';
 
 @Injectable({
@@ -6,15 +9,19 @@ import { Faixaetaria } from '../model/faixaetaria';
 })
 export class FaixaEtariaService {
 
-  constructor() { }
+  constructor(
+    private http: HttpClient
+  ) { }
 
-  listFaixaEtaria(): Faixaetaria[] {
-    //const caminhourl = '/assets/faixaetaria.json';
-    const caminhourl = '/api/faixaetaria';
+  listFaixaEtaria(): Observable<Faixaetaria[]> {
+    // const urlPath = '/assets/faixaetaria.json';
+    const urlPath = '/api/faixaetaria';
     
-    return [
-      { id: 1, faixa_i: 0, faixa_n: 14, descricao: 'Até 14 anos' },
-      { id: 2, faixa_i: 15, faixa_n: 19, descricao: 'Entre 15 e 19 anos' }
-    ];
+    return this.http.get<Faixaetaria[]>(urlPath);
+    // [
+      // { id: 1, faixa_i: 0, faixa_n: 14, descricao: 'Até 14 anos' },
+      // { id: 2, faixa_i: 15, faixa_n: 19, descricao: 'Entre 15 e 19 anos' },
+      // { id: 3, faixa_i: 16, faixa_n: 20, descricao: 'Entre 15 e 19 anos' }
+    // ];
   };
 }

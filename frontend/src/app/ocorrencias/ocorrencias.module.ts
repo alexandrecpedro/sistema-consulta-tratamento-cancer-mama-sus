@@ -1,4 +1,5 @@
 import { CommonModule } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { MatSortModule } from '@angular/material/sort';
@@ -9,7 +10,6 @@ import { FaixaEtariaService } from './service/faixa-etaria.service';
 import { OcorrenciaService } from './service/ocorrencia.service';
 import { RegiaoService } from './service/regiao.service';
 
-
 @NgModule({
   declarations: [
     OcorrenciasComponent
@@ -18,12 +18,13 @@ import { RegiaoService } from './service/regiao.service';
     CommonModule,
     OcorrenciasRoutingModule,
     MatSortModule,
-    MatCardModule
+    MatCardModule,
+    HttpClientModule
   ],
   providers: [
     OcorrenciaService,
     RegiaoService,
-    FaixaEtariaService,
+    FaixaEtariaService
   ]
 })
 export class OcorrenciasModule { }
