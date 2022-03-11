@@ -1,0 +1,12 @@
+table {
+  width: 100%;
+}
+
+.mat-sort-header-container {
+  align-items: center;
+}
+
+.margin {
+  margin-left: 5%;
+  margin-right: 5%;
+}
