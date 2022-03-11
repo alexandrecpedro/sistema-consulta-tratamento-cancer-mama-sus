@@ -10,6 +10,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
+@RequestMapping("/api")
 public class ControllerRegiao {
 //    (1) Attributes
     private final RegiaoRepo repository;
