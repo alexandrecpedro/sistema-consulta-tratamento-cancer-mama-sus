@@ -25,7 +25,7 @@ export class OcorrenciasComponent implements OnInit {
     private regiaoService: RegiaoService,
     private faixaEtariaService: FaixaEtariaService
   ) { }
-
+  
   // Initialize component when app starts (Component Lifecycle)
   ngOnInit(): void {
     this.ocorrenciaService.listOcorrencias().subscribe(ocorrencias => {this.ocorrencia_exame = ocorrencias

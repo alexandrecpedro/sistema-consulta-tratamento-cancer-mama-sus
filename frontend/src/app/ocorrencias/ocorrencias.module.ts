@@ -3,6 +3,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { MatSortModule } from '@angular/material/sort';
+import { MatTableModule } from '@angular/material/table';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 import { OcorrenciasRoutingModule } from './ocorrencias-routing.module';
 import { OcorrenciasComponent } from './ocorrencias/ocorrencias.component';
@@ -16,10 +18,12 @@ import { RegiaoService } from './service/regiao.service';
   ],
   imports: [
     CommonModule,
-    OcorrenciasRoutingModule,
-    MatSortModule,
+    HttpClientModule,
+    MatTableModule,
     MatCardModule,
-    HttpClientModule
+    MatSortModule,
+    MatToolbarModule,
+    OcorrenciasRoutingModule
   ],
   providers: [
     OcorrenciaService,
