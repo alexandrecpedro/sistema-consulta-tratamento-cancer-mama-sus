@@ -39,7 +39,7 @@ public class ControllerRegiao {
     }
 
 //    part B - POST
-    @PostMapping("/regiao/novo")
+    @PostMapping("/regiao/add")
     public Regiao postRegiao(@RequestBody Regiao newRegiao) {
         return repository.save(newRegiao);
     }

@@ -23,6 +23,12 @@ public class Regiao {
 
     public Regiao() {}
 
+    public Regiao(Long id, String regiao, Long qtd_exames) {
+        this.id = id;
+        this.regiao = regiao;
+        this.qtd_exames = qtd_exames;
+    }
+
 //    (3) Getters/Setters
     public Long getId() {
         return id;
