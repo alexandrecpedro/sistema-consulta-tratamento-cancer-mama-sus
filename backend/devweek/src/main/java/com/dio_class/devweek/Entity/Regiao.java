@@ -16,9 +16,9 @@ public class Regiao {
     private String regiao;
 
 //    (2) Constructor
-    public Regiao(Long qtd_exames, String regiao) {
-        this.qtd_exames = qtd_exames;
+    public Regiao(String regiao, Long qtd_exames) {
         this.regiao = regiao;
+        this.qtd_exames = qtd_exames;
     }
 
     public Regiao() {}

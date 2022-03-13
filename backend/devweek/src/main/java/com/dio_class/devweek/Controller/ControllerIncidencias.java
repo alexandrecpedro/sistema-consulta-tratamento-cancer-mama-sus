@@ -23,7 +23,7 @@ public class ControllerIncidencias {
 //    (3) Methods
 
 //    part A - GET
-    @GetMapping("/incidencias")
+    @GetMapping("/incidencia")
     public ResponseEntity<List<IncidenciaExame>> findAllIncidencias() {
         List<IncidenciaExame> listaIncidencia = incRepository.findAll();
         if (listaIncidencia.isEmpty())
