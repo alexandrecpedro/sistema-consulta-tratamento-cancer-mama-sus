@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 import { Faixaetaria } from '../model/faixaetaria';
-import { Ocorrencia } from '../model/ocorrencia';
+import { Incidencia } from '../model/incidencia';
 import { Regiao } from '../model/regiao';
-import { FaixaEtariaService } from '../service/faixa-etaria.service';
-import { OcorrenciaService } from '../service/ocorrencia.service';
+import { FaixaetariaService } from '../service/faixaetaria.service';
+import { IncidenciaService } from '../service/incidencia.service';
 import { RegiaoService } from '../service/regiao.service';
 
 @Component({
@@ -15,23 +15,23 @@ import { RegiaoService } from '../service/regiao.service';
 export class OcorrenciasComponent implements OnInit {
 
   // Variables
-  ocorrencia_exame: Ocorrencia[] = [];
+  incidencia: Incidencia[] = [];
   regiao: Regiao[] = [];
   faixaetaria: Faixaetaria[] = [];
 
   // Injectable allows us to declare variables inside constructor
   constructor(
-    private ocorrenciaService: OcorrenciaService,
+    private incidenciaService: IncidenciaService,
     private regiaoService: RegiaoService,
-    private faixaEtariaService: FaixaEtariaService
+    private faixaEtariaService: FaixaetariaService
   ) { }
   
   // Initialize component when app starts (Component Lifecycle)
   ngOnInit(): void {
-    this.ocorrenciaService.listOcorrencias().subscribe(ocorrencias => {this.ocorrencia_exame = ocorrencias
+    this.incidenciaService.listOcorrencias().subscribe(incidencias => {this.incidencia = incidencias
     });
     this.regiaoService.listRegioes().subscribe(regioes => {this.regiao = regioes});
-    this.faixaEtariaService.listFaixaEtaria().subscribe(faixa => {this.faixaetaria = faixa});
+    this.faixaEtariaService.listFaixaEtaria().subscribe(faixaEtaria => {this.faixaetaria = faixaEtaria});
   }
 
 }

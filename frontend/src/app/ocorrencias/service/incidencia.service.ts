@@ -2,22 +2,21 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 
-import { Ocorrencia } from '../model/ocorrencia';
+import { Incidencia } from '../model/incidencia';
 @Injectable({
   providedIn: 'root'
 })
-export class OcorrenciaService {
+export class IncidenciaService {
 
   constructor(
     private http: HttpClient
   ) { }
 
   // Method to return info
-  listOcorrencias(): Observable<Ocorrencia[]> {
+  listOcorrencias(): Observable<Incidencia[]> {
     // const pathURL = '/assets/ocorrencias.json';
-    const pathURL = '/api/incidencias';
-
-    return this.http.get<Ocorrencia[]>(pathURL);
+    const path = "/api/incidencia";
+    return this.http.get<Incidencia[]>(path);
     // [
     //   { id: 1, regiao_id: 2, Mes: 5, faixa_id: 1, qnt_exames: 44 }
     // ];

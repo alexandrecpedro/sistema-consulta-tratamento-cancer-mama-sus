@@ -18,5 +18,5 @@ export class RegiaoService {
     // const path = '/assets/regiao.json';
     const path = '/api/regiao';
     return this.http.get<Regiao[]>(path);
-  };
+  }
 }

@@ -7,7 +7,7 @@ import { Faixaetaria } from '../model/faixaetaria';
 @Injectable({
   providedIn: 'root'
 })
-export class FaixaEtariaService {
+export class FaixaetariaService {
 
   constructor(
     private http: HttpClient
@@ -15,9 +15,8 @@ export class FaixaEtariaService {
 
   listFaixaEtaria(): Observable<Faixaetaria[]> {
     // const urlPath = '/assets/faixaetaria.json';
-    const urlPath = '/api/faixaetaria';
-    
-    return this.http.get<Faixaetaria[]>(urlPath);
+    const path = "/api/faixaetaria";
+    return this.http.get<Faixaetaria[]>(path);
     // [
       // { id: 1, faixa_i: 0, faixa_n: 14, descricao: 'Até 14 anos' },
       // { id: 2, faixa_i: 15, faixa_n: 19, descricao: 'Entre 15 e 19 anos' },

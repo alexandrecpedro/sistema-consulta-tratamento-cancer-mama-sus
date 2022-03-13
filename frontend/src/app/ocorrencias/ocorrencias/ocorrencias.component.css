@@ -10,3 +10,9 @@ table {
   margin-left: 5%;
   margin-right: 5%;
 }
+
+.space {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
