@@ -43,12 +43,6 @@ As seguintes ferramentas foram usadas na construção do projeto:<br><br>
     <bold> Integração Back-end/Front-end</bold>
     <br>
     <br> 
-    <div align = 'center'>
-      <img width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
-      <img width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-      <img width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" />
-      <img width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
-    </div>
 </div>
 <br>
 <br>
