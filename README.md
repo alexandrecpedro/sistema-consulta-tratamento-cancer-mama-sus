@@ -63,7 +63,7 @@ As seguintes ferramentas foram usadas na construção do projeto:<br><br>
     <br>
     <li>Aula 3 - Criando API web com Angular</li>
     <br>
-    <li>Aula 4 - Integrando back-end/front-end e acessando dados</li> 
+    <li>Aula 4 - Integrando back-end/front-end e acessando dados</li>  
 </ol>
 </div>
 <br>
