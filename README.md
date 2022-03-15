@@ -4,6 +4,10 @@
 </div>
 <br>
 
+<div align = 'center'>
+   <img src= 'http://www.pedroeduardo.com.br/img-github/logo-philis.png' >
+</div>
+
 <h3 align = "center">
   PHILLIPS DEV WEEK
 </h3>
@@ -41,6 +45,14 @@ As seguintes ferramentas foram usadas na construção do projeto:<br><br>
     <bold> Framework JS - construção da API web </bold>
     - [Angular](https://angular.io/)<br>
     <bold> Integração Back-end/Front-end </bold>
+    
+    <br>
+    <div align = 'center'>
+      <img width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
+      <img width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+      <img width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" />
+      <img width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+    </div>
 </div>
 <br>
 <br>
