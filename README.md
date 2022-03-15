@@ -39,16 +39,16 @@ As seguintes ferramentas foram usadas na construção do projeto:<br><br>
     <bold> Ambientes de desenvolvimento - IDEs </bold> - [IntelliJ](https://nodejs.org/en/)<br> - [VSCode](https://sass-lang.com/)<br>
     <bold> Framework Java - construção do Back-end </bold>- [Java Springboot](https://start.spring.io/)<br>
     <bold> Framework JS - construção da API web </bold>- [Angular](https://angular.io/)<br>
-    <bold> Integração Back-end/Front-end </bold>
+    <bold> Integração Back-end/Front-end</bold>
     
     <br>
     <br> 
-    <div>
+<!--     <div>
       <img align = 'center' width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
       <img align = 'center' width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
       <img align = 'center' width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" />
       <img align = 'center' width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
-    </div>
+    </div> -->
 </div>
 <br>
 <br>
