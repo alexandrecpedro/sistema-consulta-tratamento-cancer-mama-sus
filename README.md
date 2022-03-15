@@ -34,18 +34,22 @@ O sistema fornecerá acesso aos dados de exames de mamografia feitos por brasile
 <h2> 🛠 Tecnologias </h2>
 As seguintes ferramentas foram usadas na construção do projeto:<br><br>
     
-    <bold> Base de dados - Sistema de dados do SUS (DATASUS)</bold> - [SISCAM](http://w3.datasus.gov.br/siscam/index.php?area=0402)<br>
-    <bold> Banco de Dados relacional </bold> - [MySQL](https://www.mysql.com/)<br>
-    <bold> Ambientes de desenvolvimento - IDEs </bold> - [IntelliJ](https://nodejs.org/en/)<br> 
-    - [VSCode](https://sass-lang.com/)<br>
-    <bold> Framework Java - construção do Back-end </bold> - [Java Springboot](https://start.spring.io/)<br>
-    <bold> Framework JS - construção da API web </bold> - [Angular](https://angular.io/)<br>
-    <bold> Integração Back-end/Front-end</bold>
-    <br>
-    <br> 
+|                                                     Ferramentas              |                                 Referência                                  |
+| ---------------------------------------------------------------------------: | --------------------------------------------------------------------------: |
+|          Base de dados - Sistema de dados do SUS (DATASUS)</bold> - [SISCAM] |              http://w3.datasus.gov.br/siscam/index.php?area=0402            |       
+|                    Banco de Dados relacional - [MySQL]                       |              https://www.mysql.com/                                         |
+|      Framework Java Spring Boot - construção do Back-end [SPRING BOOT]       |              https://start.spring.io/                                       |       
+|              Framework Angular - construção da API web - [ANGULAR]           |              https://angular.io/                                            | 
+|                           Framework Node.JS [NODE]                           |              https://nodejs.org/en/                                         |
+<br>
+<br>
+
+<div align = 'center'>
+  <img width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
+  <img width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+  <img width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" />
+  <img width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
 </div>
-<br>
-<br>
 
 <div id="percurso">
 <h2> 🔎 Percurso </h2>
