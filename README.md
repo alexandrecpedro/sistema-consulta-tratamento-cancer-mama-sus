@@ -34,14 +34,12 @@ O sistema fornecerá acesso aos dados de exames de mamografia feitos por brasile
 <h2> 🛠 Tecnologias </h2>
 As seguintes ferramentas foram usadas na construção do projeto:<br><br>
     
-    <ul>
-        <li><bold> Base de dados - Sistema de dados do SUS (DATASUS)</bold> - [SISCAM](http://w3.datasus.gov.br/siscam/index.php?area=0402)</li><br>
-        <li><bold> Banco de Dados relacional </bold> - [MySQL](https://www.mysql.com/)</li><br>
-        <li><bold> Ambientes de desenvolvimento - IDEs </bold> - [IntelliJ](https://nodejs.org/en/)<br> - [VSCode](https://sass-lang.com/)</li><br>
-        <li><bold> Framework Java - construção do Back-end </bold>- [Java Springboot](https://start.spring.io/)</li><br>
-        <li><bold> Framework JS - construção da API web </bold>- [Angular](https://angular.io/)</li><br>
-        <li><bold> Integração Back-end/Front-end </bold></li>
-    </ul>
+    <bold> Base de dados - Sistema de dados do SUS (DATASUS)</bold> - [SISCAM](http://w3.datasus.gov.br/siscam/index.php?area=0402)<br>
+    <bold> Banco de Dados relacional </bold> - [MySQL](https://www.mysql.com/)<br>
+    <bold> Ambientes de desenvolvimento - IDEs </bold> - [IntelliJ](https://nodejs.org/en/)<br> - [VSCode](https://sass-lang.com/)<br>
+    <bold> Framework Java - construção do Back-end </bold>- [Java Springboot](https://start.spring.io/)<br>
+    <bold> Framework JS - construção da API web </bold>- [Angular](https://angular.io/)<br>
+    <bold> Integração Back-end/Front-end </bold>
     
     <br>
     <br> 
