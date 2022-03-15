@@ -45,13 +45,12 @@ As seguintes ferramentas foram usadas na construção do projeto:<br><br>
     <bold> Framework JS - construção da API web </bold>
     - [Angular](https://angular.io/)<br>
     <bold> Integração Back-end/Front-end </bold>
-    
     <br>
-    <div align = 'center'>
-      <img width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
-      <img width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-      <img width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" />
-      <img width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+    <div >
+      <img align = 'center' width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
+      <img align = 'center' width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+      <img align = 'center' width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" />
+      <img align = 'center' width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
     </div>
 </div>
 <br>
