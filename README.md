@@ -36,19 +36,19 @@ As seguintes ferramentas foram usadas na construção do projeto:<br><br>
     
     <bold> Base de dados - Sistema de dados do SUS (DATASUS)</bold> - [SISCAM](http://w3.datasus.gov.br/siscam/index.php?area=0402)<br>
     <bold> Banco de Dados relacional </bold> - [MySQL](https://www.mysql.com/)<br>
-    <bold> Ambientes de desenvolvimento - IDEs </bold> - [IntelliJ](https://nodejs.org/en/)<br> - [VSCode](https://sass-lang.com/)<br>
-    <bold> Framework Java - construção do Back-end </bold>- [Java Springboot](https://start.spring.io/)<br>
-    <bold> Framework JS - construção da API web </bold>- [Angular](https://angular.io/)<br>
+    <bold> Ambientes de desenvolvimento - IDEs </bold> - [IntelliJ](https://nodejs.org/en/)<br> 
+    - [VSCode](https://sass-lang.com/)<br>
+    <bold> Framework Java - construção do Back-end </bold> - [Java Springboot](https://start.spring.io/)<br>
+    <bold> Framework JS - construção da API web </bold> - [Angular](https://angular.io/)<br>
     <bold> Integração Back-end/Front-end</bold>
-    
     <br>
     <br> 
-<!--     <div>
-      <img align = 'center' width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
-      <img align = 'center' width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-      <img align = 'center' width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" />
-      <img align = 'center' width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
-    </div> -->
+    <div align = 'center'>
+      <img width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
+      <img width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+      <img width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" />
+      <img width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+    </div>
 </div>
 <br>
 <br>
