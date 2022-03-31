@@ -15,7 +15,7 @@
 <p align="center">
  <a href="#objetivo">Objetivo</a> •
  <a href="#tecnologias">Tecnologias</a> •
- <a href="#percurso">Percurso</a> •
+ <a href="#percurso">Percurso</a>
 </p>
 
 <br>
